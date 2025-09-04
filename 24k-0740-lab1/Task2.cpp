@@ -17,6 +17,13 @@ public:
     ~Box(){
         delete vol;
     }
+
+    void setvol(int v){
+        *vol=v;
+    }
+    int getvol(){
+        return *vol;
+    }
 };
 
 int main(){
