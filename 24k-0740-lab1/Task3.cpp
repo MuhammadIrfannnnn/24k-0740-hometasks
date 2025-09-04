@@ -24,4 +24,7 @@ int main(){
     Exam E2(E1);
     cout<<"Marks1: "<<E1.get()<<endl;
     cout<<"Marks2: "<<E2.get()<<endl;
+    E2.set(90);
+    cout<<"New Marks 2: "<<E2.get()<<endl;
+    cout<<"Marks1 (changed): "<<E1.get()<<endl;
 }
