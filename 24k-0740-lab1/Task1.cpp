@@ -43,3 +43,17 @@ class ResearchPaper{
     }
 
 };
+int main() {
+    string s1[] = {"Irfan","Ali"};
+    ResearchPaper p1(2, s1);
+
+    cout <<"Original Paper Authors:"<< endl;
+    p1.display();
+
+    ResearchPaper p2(p1);
+    cout<<endl<<"Copied Paper Authors:"<< endl;
+    p2.display();
+
+
+    return 0;
+}
