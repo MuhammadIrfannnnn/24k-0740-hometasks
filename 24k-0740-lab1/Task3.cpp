@@ -27,4 +27,5 @@ int main(){
     E2.set(90);
     cout<<"New Marks 2: "<<E2.get()<<endl;
     cout<<"Marks1 (changed): "<<E1.get()<<endl;
+    return 0;
 }
