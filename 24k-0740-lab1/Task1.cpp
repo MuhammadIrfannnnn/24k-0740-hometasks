@@ -30,4 +30,16 @@ class ResearchPaper{
         }
         return *this;
     }
+        ~ResearchPaper() {
+        delete[] authors;
+        delete authors;
+    }
+
+
+    void display() {
+        for (int i=0;i<n; i++) {
+            cout<<authors[i]<<endl;
+        }
+    }
+
 };
