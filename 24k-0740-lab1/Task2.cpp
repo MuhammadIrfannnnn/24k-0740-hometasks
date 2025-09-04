@@ -36,4 +36,5 @@ int main(){
     b3.setvol(100);
     cout<<"Box 3 new vol: "<<b3.getvol()<<endl;
     cout<<"Box 2 unchanged vol: "<<b2.getvol()<<endl;
+    return 0;
 }
