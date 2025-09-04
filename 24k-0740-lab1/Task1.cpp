@@ -53,7 +53,14 @@ int main() {
     ResearchPaper p2(p1);
     cout<<endl<<"Copied Paper Authors:"<< endl;
     p2.display();
+     string s2[]={"Ahmed","Fahad"};
+     ResearchPaper p3(2,s2);
+     cout<<endl<<"Paper 3 authors"<<endl;
+     p3.display();
 
+     p3=p1;
+    cout<<endl<<"Paper 3 after assignment operator"<<endl;
+    p3.display();
 
     return 0;
 }
