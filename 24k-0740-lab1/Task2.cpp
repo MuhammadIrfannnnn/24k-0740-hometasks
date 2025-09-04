@@ -27,5 +27,10 @@ public:
 };
 
 int main(){
-
+    Box b1;
+    cout<<"Box 1 vol: "<<b1.getvol()<<endl;
+    Box b2(10);
+    cout<<"Box 2 vol: "<<b2.getvol()<<endl;
+    Box b3(b2);
+    cout<<"Box 3 vol: "<<b3.getvol()<<endl;
 }
