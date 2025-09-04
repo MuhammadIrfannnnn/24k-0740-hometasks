@@ -62,5 +62,4 @@ int main() {
     cout<<endl<<"Paper 3 after assignment operator"<<endl;
     p3.display();
 
-    return 0;
 }
